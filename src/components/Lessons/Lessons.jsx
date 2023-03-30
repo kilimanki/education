@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { useState } from 'react';
 import { getSubject } from 'redux/teacher-slice';
 import css from './Lessons.module.css';
 
