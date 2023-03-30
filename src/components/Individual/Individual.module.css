@@ -1,0 +1,44 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.item {
+    margin: 30px;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 200px;
+    background-color: white;
+    height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+        transition: all 200ms;
+}
+
+.input {
+    border: 3px solid white;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.submit{
+    display: inline-flex;
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: white;
+  height: 30px;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover{
+    color: green;
+    scale: 1.2;
+}

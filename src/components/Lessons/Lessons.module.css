@@ -1,0 +1,14 @@
+.subject{
+     font-weight: bold;
+     font-size: 24px;
+     color: black;
+     margin: 10px;
+}
+.subject:hover{
+    color: red;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
