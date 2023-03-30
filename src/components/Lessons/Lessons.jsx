@@ -6,7 +6,6 @@ import { getSubject } from 'redux/teacher-slice';
 import css from './Lessons.module.css';
 
 const Lessons = () => {
-  const [subj, setSubj] = useState('');
   const dispatch = useDispatch();
   const handleCLick = e => {
     dispatch(getSubject(e.target.id));

@@ -3,7 +3,6 @@ import { useState } from 'react';
 import Individual from 'components/Individual/Individual';
 import Public from 'components/Public/Public';
 import { useDispatch } from 'react-redux';
-import { useSelector } from 'react-redux';
 import { getType } from 'redux/teacher-slice';
 const Math = () => {
   const [state, setState] = useState('');

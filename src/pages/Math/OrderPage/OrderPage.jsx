@@ -2,7 +2,6 @@ import { useSelector } from 'react-redux';
 
 export const OrderPage = () => {
   const allTeachers = useSelector(({ teacher }) => teacher.math);
-  const typeOfLesson = useSelector(({ teacher }) => teacher.math.type);
 
   const elements = allTeachers.map(item => {
     const id = item.id;
